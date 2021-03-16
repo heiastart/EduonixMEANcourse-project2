@@ -5,9 +5,7 @@ class Book {
     this.pageCount = pageCount;
     this.yearPublished = yearPublished;
     this.author = author;
-    // Or this.author = new Author(author); ??????
     this.publisher = publisher;
-    // Or this.publisher = new Publisher(publisher); ????
     this.coverType = coverType;
   }
 
@@ -109,4 +107,10 @@ class LibraryBranch {
   getNumEmployees(){
     console.log("The current amount of employees are " + this.numEmployees);
   }
+}
+
+
+class PublicationCompany {
+  constructor(companyName){
+    this.name = companyName;}
 }
